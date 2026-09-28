@@ -1,13 +1,13 @@
 cask "deskcharm" do
   version "0.1.0"
-  sha256 "ca7170938846e84f12e65ceff4e00ce117d36c1d3c86be4a214046961884b156"
+  sha256 "b1c1e9473c22a1eddd090ad882f6404ca1694a480eed13c6d8931345d910cd14"
 
   url "https://github.com/winsongr/deskcharm/releases/download/v#{version}/Deskcharm-#{version}.zip"
   name "Deskcharm"
   desc "Lucky charm that hangs from the top of the screen"
   homepage "https://github.com/winsongr/deskcharm"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Deskcharm.app"
 
